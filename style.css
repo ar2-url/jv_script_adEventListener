@@ -1,0 +1,82 @@
+
+.boxModel1 {
+    border: 4px solid #575757;
+    height: 200px;
+    width: 200px;
+/*     padding: 20px 10px 5px 0; */
+    padding: 20px 10px;
+    /*  top right bottom left  */
+  }
+  .boxModel2 {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+/*     margin: 20px; */
+  }
+  .boxModel3 {
+    background-color: tomato;
+    height: 150px;
+    width: 150px;
+    opacity: 0.5;
+}
+  .boxModel4 {
+    background-color: yellow;
+    height: 100px;
+    width: 100px
+  }
+.nice_cat {
+  height: 50px;
+  width: 50px;
+  transform: rotate(90deg);
+}
+
+.heart {
+ position: relative;
+  height: 300px;
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.circle {
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  background-color: pink;
+  position: absolute;
+}
+.left-side {
+    left: 15px;
+}
+.right-side {
+  right: 15px;
+}
+.square {
+    position: absolute;
+    top: 64px;
+    height: 160px;
+    width: 160px;
+    background-color: pink;
+    transform: rotate(45deg);
+}
+.none {
+    display: none;
+}
+.bg-color-green {
+    background-color: green;
+}
+.boxModel1 {
+  display: flex;
+  width: 800px;
+  align-items: center;
+  justify-content: space-between;
+}
+.bg-tomato {
+    background-color: tomato;
+}
+.bg-aqua {
+    background-color: aqua;
+}
+.bg-lime {
+    background-color: lime;
+}
